@@ -1,0 +1,40 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+.venv/
+venv/
+env/
+
+# ---- 打包产物（构建生成，不入库）----
+build/
+dist/
+*.spec
+*.manifest
+
+# ---- 本地状态 / 日志 / 临时文件 ----
+state.json
+*.log
+_debug.txt
+*.tmp
+
+# ---- 截图草稿（只保留 docs/screenshot.png）----
+docs/_*.png
+assets/_*.png
+
+# ---- 敏感配置（切勿提交）----
+.env
+.env.*
+secrets.json
+*.pem
+*.p12
+token.txt
+
+# ---- 编辑器 / 系统 ----
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini
